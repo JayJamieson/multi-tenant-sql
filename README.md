@@ -1,6 +1,6 @@
 # multi-tenant-sql
 
-SQL starters for building multi tenant applications with MySQL, PostgreSQL and SQLite.
+SQL starters for building multi tenant applications with MySQL, PostgreSQL and SQLite. The
 
 ## How to use this
 
