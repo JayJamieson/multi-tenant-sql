@@ -1,0 +1,17 @@
+services:
+  mysql:
+    image: mysql:8
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: multi_tenant
+      MYSQL_ROOT_PASSWORD: password
+  postgresql:
+    image: postgres:16
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: multi_tenant
+      POSTGRES_PASSWORD: password
